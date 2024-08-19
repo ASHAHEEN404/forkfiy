@@ -4,7 +4,7 @@
   "description": "Food recipe Application",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "",
   "license": "ISC",
@@ -13,9 +13,8 @@
     "parcel": "^2.11.0"
   },
   "dependencies": {
-  "core-js": "^3.25.5",
-  "fractional": "^1.0.0",
-  "regenerator-runtime": "^0.14.1"
-}
-  
+    "core-js": "^3.25.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
 }

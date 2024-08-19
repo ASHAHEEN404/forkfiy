@@ -4,8 +4,10 @@ import resultsView from './views/resultsView.js';
 import searchView from './views/searchView.js';
 import paginationView from './views/paginationView.js';
 import bookmarkView from './views/bookmarkView.js';
-import 'core-js';
+import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+
+console.log('Core-js and regenerator-runtime imported successfully.');
 import addRecipeView from './views/addRecipeView.js';
 import { TIMEOUT_NEWRECIPE } from './config.js';
 
