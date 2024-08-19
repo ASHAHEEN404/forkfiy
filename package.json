@@ -1,0 +1,20 @@
+{
+  "name": "forkfiy-project",
+  "version": "1.0.0",
+  "description": "Food recipe Application",
+  "scripts": {
+    "start": "parcel index.html",
+    "bulid": "parcel bulid index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "core-js": "^3.35.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
