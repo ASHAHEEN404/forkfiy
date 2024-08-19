@@ -4,7 +4,7 @@ import resultsView from './views/resultsView.js';
 import searchView from './views/searchView.js';
 import paginationView from './views/paginationView.js';
 import bookmarkView from './views/bookmarkView.js';
-import 'core-js/stable';
+import 'core-js';
 import 'regenerator-runtime/runtime';
 import addRecipeView from './views/addRecipeView.js';
 import { TIMEOUT_NEWRECIPE } from './config.js';
